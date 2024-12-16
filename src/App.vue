@@ -73,6 +73,10 @@ export default {
 </script>
 
 <style>
+html{
+  scroll-padding-top: 30vh;
+}
+
 #app {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -102,13 +106,7 @@ a {
   margin-top: 2em;
 }
 
-#skillset{
-  margin-top: 5em;
-}
 
-#about-page{
-  margin-top: 2em;
-}
 
 .projects-heading{
         width: fit-content;
@@ -120,10 +118,38 @@ a {
         font-size: 2em;
 }
 
+.section{
+  margin-top: 6em;
+}
+
+.stylish-header{
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1400px) {
+      .stylish-header{
+        margin-top: 7em;
+        transition: 0.5s;
+      }
+}
+
+@media screen and (max-width: 820px) {
+      .stylish-header .line{
+        display: none;
+      }
+}
+
+
 @media screen and (max-width: 1000px) {
   body{
     margin-left: 20px;
     margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    font-size: 0.8em;
   }
 }
 </style>

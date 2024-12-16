@@ -3,6 +3,8 @@ export default {
         navProjects: 'Projects',
         navAboutMe: 'About me',
         navSkillset: 'My Skillset',
+        navContactMe: 'Contact',
+        navAboutPage: 'About this page',
       siokTitle: 'Android App - S.I.O.K.',
       siokDesc: `This is an android app created for a client, 
           who is a doctor with his own exercise program. The app sends notifications to remind about a scheduled workout.
@@ -16,5 +18,6 @@ export default {
                  I value simplicity, connection, and impact—whether it’s building efficient code, 
                  understanding client needs, or creating meaningful solutions. 
                 Outside of work, I enjoy the therapeutic rhythm of driving and exploring creative ideas.`,
+        aboutPageDesc:`This page was designed and created by me. If you'd like to see the code, be my guest:` ,
     }
   };

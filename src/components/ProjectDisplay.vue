@@ -99,6 +99,10 @@
         animation: fadeInUp 2s ease-in forwards;
     }
 
+    .desc > p, a{
+      margin-left: 15px;
+    }
+
     .desc-container{
         display: flex;
         justify-content: space-between;
@@ -116,6 +120,9 @@
 
     h2{
         position: relative;
+        padding: 10px;
+        background-color: var(--primary);
+        box-shadow: 5px 5px var(--secondary);
     }
 
     p{
@@ -130,6 +137,11 @@
       display: flex;
       margin-top: 2em;
       gap: 1em;
+      margin-left:15px;
+    }
+
+    .tech-item{
+      white-space: nowrap;
     }
 
     @keyframes fadeInUp {

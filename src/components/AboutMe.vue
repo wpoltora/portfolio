@@ -32,8 +32,9 @@
         align-items: start;
     }
     img{
-        width: 400px;
-        height: 400px;
+        max-width: 400px;
+        max-height: 400px;
+        width: 100%;
     }
 
     img::before{

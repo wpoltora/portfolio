@@ -1,8 +1,8 @@
 <template>
     <div class="about-page">
       <h2>{{$t('strings.navAboutPage')}}</h2>
-      <p>This page was designed and created by me. If you'd like to see the code, be my guest: </p>
-      <ButtonLink href="github.com">Github Repository</ButtonLink>
+      <p>{{$t('strings.aboutPageDesc')}}</p>
+      <ButtonLink href="https://github.com/wpoltora/portfolio">GitHub</ButtonLink>
     </div>
   </template>
   
